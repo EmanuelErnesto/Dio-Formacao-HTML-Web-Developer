@@ -1,6 +1,6 @@
 <img align="left" src= "./image/img-formacao-html-developer.webp" width = 70>
 
-<h1 align = "center"> Formação HTML Web Developer </h1>
+<h1 align = "left"> Formação HTML Web Developer </h1>
 
 
 
