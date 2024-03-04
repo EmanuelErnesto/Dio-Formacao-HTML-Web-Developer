@@ -1,7 +1,6 @@
-
+<h1 align = "left">
 <img align = "left" src = "./images/img-desafio1-formacao.webp" width = 90>
-
-<h1 align = "center">
+ 
  Desafio de Projeto - Criar um Site com as Tags aprendidas </h1>
 
 ### Entendendo o Desafio:
