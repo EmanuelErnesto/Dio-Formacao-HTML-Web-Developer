@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 1 - Primeiros Passos com HTML </title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr>
+
+    <h2 id="comeco">Tópicos</h2>
+    <ul>
+        <li> <a href="#inicio">Início</a></li>
+        <li> <a href="#tags-usadas">Tags comumente usadas</a></li>
+        <li> <a href="#referencias"> Referências</a></li>
+    </ul>
+    
+    <h2 id="inicio"><u>Início</u></h2>
+    <p>
+        O HTML foi criado por <strong>Tim Berners-Lee</strong> com o objetivo de ser uma linguagem de marcação utilizada para estruturação de páginas Web. Através do HTML, foi possível criar páginas que poderiam ser conferidas a partir do <mark><a href="#protocolo-http">protocolo HTTP</a></mark>. Muitos comumente o associam com uma linguagem de programação, mas fato é que ele foi concebido e pode ser definido apenas como uma linguagem de marcação de texto.
+    </p>
+
+    <p>A primeira página criada também por Tim Berners-Lee foi uma que descrevia como funciona a World Wide Web (mais conhecida pelas siglas WWW). Você pode conferi-la <a href="#primeirapagina">aqui</a> </p>
+
+
+    <h2 id="tags-usadas"><u>Tags Comumente usadas</u></h2>
+
+
+    <p>O HTML possui um conjunto de tags que trazem uma grande diversidade de opções para o programador estruturar o site. Desde Hyperlinks com a tag "a" até formulários de texto e números com a "input" é possível explorar uma vasta gama de possibilidades. Para aquele que irá estruturar o FrontEnd, ou o "lado do cliente" é possível também trazer, mesmo sem o uso de um CSS, uma pequena estilização ao site. Com tags como "strong", "u" e "i" é possível deixar em negrito, com o "underline" e em itálico, respectivamente. Isto torna o HTMl uma poderosa ferramenta para criação da estrutura de sites, e em conjunto com o CSS que trás uma maior gama de estilizações, as possibilidades são praticamente intermináveis. Abaixo estarão listados alguns exemplos de tags e suas funcionalidades.</p>
+    <h3>Tags de título e subtítulo</h3>
+    <p>a tag 'h1' serve para criação de um título de uma página, enquanto que da tag h2 até a h6 são subtítulos de tamanhos menores, servindo para um controle maior da formatação do site e separação entre títulos e subtítulos</p>
+    <h1>Exemplo h1</h1>
+    <h2>Exemplo h2</h2>
+    <h3>Exemplo h3</h3>
+    <h4>Exemplo h4</h4>
+    <h5>Exemplo h5</h5>
+    <h6>Exemplo h6</h6>
+
+    <h3>Tag de parágrafo</h3>
+    <p>A tag "p" serve para delimitar onde começa e termina o páragrafo de um texto. É possível ter várias tags p em uma página, assim como o HTML não possui algum tipo de erro ao utilizar mais de uma mesma tag ao mesmo tempo. Basta apenas deixa-las devidamente separadas por sua sintaxe base, que vem a partir da tag de abertura e a tag de fechamento</p>
+    <h3>Tag para diminuir o texto</h3>
+    <p>Uma tag que também pode ser usada é a small, cujo serve para diminuir o tamanho do texto dentro de seu escopo. É possível pensar nela como uma tag de 'estilização' de texto. Em tamanho ela é comparável à h6, mas elas possuem propósitos e usos diferentes.</p>
+    <p><small>exemplo texto small</small></p>
+
+    <h3>Tag para tornar itálico</h3>
+    <p>A tag i é utilizada para transformar os textos em itálico, sendo outra tag voltada para estilização.</p>
+    <p><i>Exemplo texto em itálico.</i></p>
+
+    <h3>Tag para sublinhar</h3>
+    <p>A tag u é utilizada para sublinhar as letras dos caracteres.</p>
+    <p><u>Exemplo texto com a tag u</u></p>
+
+
+    <h3>Tag para deixar em negrito</h3>
+    <p>A tag strong é utilizada para transformar o texto em negrito</p>
+    <p><strong>Exemplo Texto strong</strong></p>
+
+    <h3>Tags para listas</h3>
+    <p>As <i>listas</i> no HTML nos permitem trazer de modo <i>ordenado</i> ou <i>desordenado</i> um grupo de <i>itens</i>. A lista a ser usada depende da necessidade do programador na hora do desenvolvimento de sua webpage, sendo bem flexível neste sentido.</p>
+    <p>As listas ordenadas (ol) possuem uma ordenação clara para os seus <i>elementos da lista</i> (ou list items) tornando mais fácil uma visibilidade da ordem dos elementos.</p>
+    <ol>
+        <li>Esse é um item da lista ordenada</li>
+        <li>Este é outro item da lista ordenada</li>
+        <li>Esse é mais um item da lista ordenada.</li>
+    </ol>
+    <p>Assim como na matemática, "a ordem dos fatores não altera o produto" então se quisesse mudar de linha qualquer uma dessas 3 frases, seria possível, dependendo apenas dos requisitos e necessidades específicos para o site.</p>
+
+    <p>Quanto às listas desordenadas, elas são, como sugere o nome, elementos que não possuem uma ordem clara, havendo por padrão apenas um ponto escuro do lado esquerdo de seus elementos. Este ponto é uma estilização padrão do HTML, podendo, com auxílio do CSS, ser modificado e estilizado para um maior embelezamento do site. Tanto as ol quanto as ul possuem suas tags de abertura e fechamento, assim como cada um dos itens das listas, que são delimitados pela tag li (list items)</p>
+
+    <ul>
+        <li>Esse é um item da lista desordenada</li>
+        <li>Este é outro item da lista desordenada</li>
+        <li>Esse é mais um item da lista desordenada</li>
+    </ul>
+
+    <h3>Tag para Hyperlinks</h3>
+
+    <p>Para hyperlinks a tag mais comumente utilizada é a 'a', cujo possui uma tag de abertura e fechamento, bem como possui uma <i>referência</i> e um <i>alvo</i> (ou target). A referência é o caminho para onde o Hyperlink irá encaminhar, enquanto o target diz para o navegador se será aberto na mesma aba que a página web que nós construímos, ou se será aberto em outra página. Quando o objetivo é manter o foco do usuário na página atual, então o ideal é utilizar o parâmetro _self dentro do target para dizer para o navegador que queremos que o link leve para o caminho desejado na aba atual. Caso o objetivo seja que o usuário seja reencaminhado para outra página, é passado como parâmetro para o target o _blank. Antigamente haviam outros dois parâmeteos para o target, mas atualmente eles estão em desuso, sendo possível vê-los apenas em sites mais antigos onde seja necessária alguma manutenção, por exemplo.
+    </p>
+    <p>É possível definirmos esses links para tanto páginas externas como internas, sendo por isso que a tag 'a' costuma ser chamada de 'tag ancora'</p>
+
+    <h3>Tag de quebra temática</h3>
+    <p>a tag hr serve para criar uma separação que pode ser bastante usada para definir essa separação entre o título e o resto da página</p>
+    <p>texto acima da quebra feita pela tag hr</p>
+    <hr>
+    <p>texto abaixo da quebra feita pela tag hr</p>
+
+    <h3>Tags para subscrição e sobrescrição</h3>
+    <p>as tags sub e sup são bastante parecidas com a tag small, sendo que no caso delas, são normalmente utilizadas para posicionar esse texto "menor" em uma posição mais acima ou abaixo da linha em questão</p>
+    <p>esse texto usa a <sub>tag sub</sub></p>
+
+    <p>esse texto usa a <sup>tag sup</sup></p>
+
+    <h3>Tag de citação</h3>
+
+    <p>Quando queremos fazer uma citação, é possível utilizar a tag blockquote para trazer um destaque maior e diferente posicionamento ao que fora citado</p>
+
+    <blockquote cite="https://www.pensador.com/frases_de_isaac_newton/">
+        O que sabemos é uma gota; o que ignoramos é um oceano.
+    </blockquote>
+
+    <h3>Tag para estilizar fonte</h3>
+
+    <p>A tag font era utilizada para dar uma fonte para a parte específica do texto em que foi inserida. No entanto, após o HTML5 não há mais suporte a essa tag, então para uma estilização deste tipo é utilizado atualmente o CSS, sendo vista esta tag apenas quando tratamos de sites feitos em versões mais antigas do HTML</p>
+    <p style="color: red; font-size: large; font-family: Arial, Helvetica, sans-serif;">Este é um texto estilizado com uma propriedade CSS. Anteriormente, para este tipo de operação era utilizada a tag 'font'</p>
+
+    <h3>Tag de Abreviação</h3>
+    <p>A tag abbr é utilizada quando queremos abreviar algum acrônimo. Mais informações sobre a tag abbr <a href="https://www.w3schools.com/tags/tag_abbr.asp" target="_blank"></a>aqui</p>
+    <p>O exemplo a seguir <abbr title="World Wide Web">www</abbr> é uma abreviação de World Wide Web, sendo definido este nome completo dentro do atributo 'title'</p>
+
+    <h2 id = "referencias"><u>Referências</u></h2>
+    <ul>
+        <li>
+            <a href="#comeco">Voltar ao início</a>
+        </li>
+
+        <li>
+            <a href="https://rockcontent.com/br/blog/http/" target="_blank">HTTP: entenda o que é, para que serve e como funciona</a>
+        </li>
+        <li>
+            <a id = "primeira-pagina" href="https://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">primeira página da web</a>
+        </li>
+
+        <li>
+            <a href="https://www.w3schools.com/html/" target="_blank">documentação sobre HTML da w3schools</a>
+        </li>
+</body>
+</html>
+
+
